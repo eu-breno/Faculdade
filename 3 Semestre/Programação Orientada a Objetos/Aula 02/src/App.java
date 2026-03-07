@@ -9,9 +9,9 @@ public class App {
         c1.saldo = 0f;
 
         Conta c2 = new Conta();
-        c1.numero = 2;
-        c1.titular = "fulano";
-        c1.saldo = 0f;
+        c2.numero = 2;
+        c2.titular = "fulano";
+        c2.saldo = 0f;
 
         System.out.println("Movimentar a conta - depósito - saque");
         c1.depositar(10000f);
