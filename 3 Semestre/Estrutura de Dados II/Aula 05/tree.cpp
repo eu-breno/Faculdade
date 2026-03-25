@@ -3,7 +3,7 @@
 #include <algorithm>
 
 namespace tree{
-    //struct de cada nodo da árvore
+    //struct de cda nodo da árvore
     struct node{
         std::string value; //INFORMAÇÃO
         node *left;  //FILHO DA ESQUERDA
